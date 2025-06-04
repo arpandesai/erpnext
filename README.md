@@ -40,6 +40,8 @@ Running a business is a complex task - handling invoices, tracking stock, managi
 - **Manufacturing**: Simplifies the production cycle, helps track material consumption, exhibits capacity planning, handles subcontracting, and more!
 - **Asset Management**: From purchase to perishment, IT infrastructure to equipment. Cover every branch of your organization, all in one centralized system.
 - **Projects**: Delivery both internal and external Projects on time, budget and Profitability. Track tasks, timesheets, and issues by project.
+- **Voice Commands**: Operate CRM modules hands-free using the optional
+  `openai-realtime-console` integration.
 
 <details open>
 
