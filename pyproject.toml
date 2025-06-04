@@ -22,6 +22,9 @@ dependencies = [
 
     # Not used directly - required by PyQRCode for PNG generation
     "pypng~=0.20220715.0",
+
+    # Voice console integration
+    "openai-realtime-console",
 ]
 
 [build-system]
