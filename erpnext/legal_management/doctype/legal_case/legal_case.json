@@ -1,0 +1,58 @@
+{
+ "doctype": "DocType",
+ "name": "Legal Case",
+ "module": "Legal Management",
+ "field_order": [
+  "case_title",
+  "client",
+  "status",
+  "opening_date",
+  "closing_date",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "case_title",
+   "fieldtype": "Data",
+   "label": "Case Title"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "options": "Customer",
+   "label": "Client"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "options": "Open\nClosed\nOn Hold",
+   "label": "Status"
+  },
+  {
+   "fieldname": "opening_date",
+   "fieldtype": "Date",
+   "label": "Opening Date"
+  },
+  {
+   "fieldname": "closing_date",
+   "fieldtype": "Date",
+   "label": "Closing Date"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  }
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
